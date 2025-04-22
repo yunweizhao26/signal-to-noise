@@ -3,3 +3,5 @@ datasets
 archive/output
 __pycache__
 .vscode
+archive/lung_obs.pkl
+archive/lung_dataset_cell_counts
