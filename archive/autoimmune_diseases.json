@@ -1,0 +1,15 @@
+{
+    "yes": [
+        "type 1 diabetes mellitus"
+    ],
+    "no": [
+        "normal",
+        "COVID-19",
+        "diabetic kidney disease",
+        "breast cancer",
+        "metastatic melanoma",
+        "autosomal dominant polycystic kidney disease",
+        "Alzheimer disease",
+        "common variable immunodeficiency"
+    ]
+}
