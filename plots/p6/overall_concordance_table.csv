@@ -1,0 +1,10 @@
+dataset_name,overall_conc_actual,overall_conc_random
+"Crohn disease, lamina propria of mucosa of colon",0.6954973483767706,0.5479316713357235
+"Crohn disease, colonic epithelium",0.6629720473593815,0.53497061386782
+"normal, colon",0.6537651169205947,0.5223811422916973
+"Crohn disease, sigmoid colon",0.6915991488641658,0.5311887172517846
+"Crohn disease, colon",0.6662440544858241,0.5210488917784731
+"Crohn disease, left colon",0.6782623865256193,0.5184380453494172
+"Crohn disease, caecum epithelium",0.6439461633894445,0.4807084090283901
+"Crohn disease, caecum",0.5091733029185931,0.48792745269761095
+"Crohn disease, right colon",0.6838301893508741,0.4953698407311116
