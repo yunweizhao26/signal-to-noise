@@ -11,6 +11,7 @@ matplotlib==3.10.0
 phenograph==1.5.7
 IPython==8.32.0
 scvi-tools==1.2.2.post2
+seaborn
 
 #jax==0.4.34
 #jaxlib==0.4.34

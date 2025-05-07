@@ -109,9 +109,8 @@ def _run_magic(y):
         # verbose=1,
     )
     y_hat = magic_op.fit_transform(y_norm, genes='all_genes')
-    
+    y_expanded = expand_magic_matrix(y, y_hat)
     return y_hat
-
 
 def expand_magic_matrix(y, reduced_matrix):
     """
@@ -244,7 +243,7 @@ def _run_scscope(y):
           15,
           use_mask=True,
           batch_size=64,
-          max_epoch=1000,
+          max_epoch=500,
           epoch_per_check=100,
           T=2,
           exp_batch_idx_input=[],
@@ -326,6 +325,32 @@ def force_gc():
     check_mem_usage()
     
 
+def _run_knn_smoothing(y, k=10):
+    """
+    Apply k-nearest neighbors smoothing to the input data.
+    
+    Args:
+        y: Input data matrix (cells x genes)
+        k: Number of neighbors to use for smoothing
+    Returns:
+
+        Smoothed data matrix
+    """
+    from sklearn.neighbors import NearestNeighbors
+    
+    # Fit nearest neighbors model
+    nbrs = NearestNeighbors(n_neighbors=k, algorithm='auto').fit(y)
+    
+    # Find k-nearest neighbors for each cell
+    distances, indices = nbrs.kneighbors(y)
+    
+    # Average the neighbors' values for smoothing
+    smoothed = np.zeros_like(y)
+    for i in range(y.shape[0]):
+        smoothed[i] = np.mean(y[indices[i]], axis=0)
+    
+    return smoothed
+
 def run_pipeline_on_sets():
     """
     Main function to run the imputation pipeline on all datasets.
@@ -338,10 +363,11 @@ def run_pipeline_on_sets():
     
     methods = {
         # "deepImpute": _run_deepimpute,
-        # "scScope": _run_scscope, 
+        "scScope": _run_scscope, 
         # "scVI": _run_scvi,
-        "SAUCIE": _run_saucie,
-        "MAGIC": _run_magic, 
+        # "SAUCIE": _run_saucie,
+        # "MAGIC": _run_magic,
+        # "knn_smoothing": _run_knn_smoothing,
     }
     
     for f in files:
@@ -351,7 +377,7 @@ def run_pipeline_on_sets():
         # filter out cells that originate from other datasets
         adata = adata[adata.obs["is_primary_data"] == True]
         
-        # run_imputation(adata, f.stem, methods)
+        run_imputation(adata, f.stem, methods)
         
         run_analysis(adata, f.stem, methods)
 

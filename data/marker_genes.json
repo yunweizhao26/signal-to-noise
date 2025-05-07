@@ -1,0 +1,41 @@
+{
+  "Enterocytes BEST4": [
+    "BEST4", "OTOP2", "CA7", "GUCA2A", "GUCA2B", "SPIB", "CFTR"
+  ],
+  "Goblet cells MUC2 TFF1": [
+    "MUC2", "TFF1", "TFF3", "FCGBP", "AGR2", "SPDEF"
+  ],
+  "Tuft cells": [
+    "POU2F3", "DCLK1"
+  ],
+  "Goblet cells SPINK4": [
+    "MUC2", "SPINK4"
+  ],
+  "Enterocytes TMIGD1 MEP1A": [
+    "CA1", "CA2", "TMIGD1", "MEP1A"
+  ],
+  "Enterocytes CA1 CA2 CA4-": [
+    "CA1", "CA2"
+  ],
+  "Goblet cells MUC2 TFF1-": [
+    "MUC2"
+  ],
+  "Epithelial Cycling cells": [
+    "LGR5", "OLFM4", "MKI67"
+  ],
+  "Enteroendocrine cells": [
+    "CHGA", "GCG", "GIP", "CCK"
+  ],
+  "Stem cells OLFM4": [
+    "OLFM4", "LGR5"
+  ],
+  "Stem cells OLFM4 LGR5": [
+    "OLFM4", "LGR5", "ASCL2"
+  ],
+  "Stem cells OLFM4 PCNA": [
+    "OLFM4", "PCNA", "LGR5", "ASCL2", "SOX9", "TERT"
+  ],
+  "Paneth cells": [
+    "LYZ", "DEFA5"
+  ]
+}

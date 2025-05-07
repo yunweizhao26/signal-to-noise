@@ -34,13 +34,13 @@ for dataset_name, dataset_val in data.items():
                 if not isinstance(sub_b, dict):
                     continue
 
-                # 1) Extract genes from "per_gene_concordance" if present
+                # 1. Extract genes from "per_gene_concordance" if present
                 gene_concord_list = sub_b.get("per_gene_concordance", [])
                 # gene_concord_list is a list of [ [gene_name, value], ... ]
                 for (gene_name, val) in gene_concord_list:
                     unique_genes_per_dataset[dataset_name].add(gene_name)
 
-                # 2) Extract cell types from "per_cell_concordance" if present
+                # 2. Extract cell types from "per_cell_concordance" if present
                 cell_concord_list = sub_b.get("per_cell_concordance", [])
                 # cell_concord_list is a list of [ [cell_label, value], ... ]
                 for (cell_label, val) in cell_concord_list:
