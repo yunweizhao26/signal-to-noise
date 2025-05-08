@@ -1,0 +1,87 @@
+disease,tissue,cell_type,gene,cutoff,f1,precision,recall,rank
+Crohn disease,colon,enterocytes best4,BEST4,0.5,0.0106,0.0053,1.0,1
+Crohn disease,colon,enterocytes best4,CA7,0.5,0.0068,0.0034,0.9459,2
+Crohn disease,colon,enterocytes ca1 ca2 ca4,CA1,0.5,0.4754,0.3121,0.9976,1
+Crohn disease,colon,enterocytes tmigd1 mep1a,APOC3,0.5,0.2624,0.151,1.0,1
+Crohn disease,colon,enterocytes tmigd1 mep1a,TMIGD1,0.5,0.198,0.1117,0.8731,2
+Crohn disease,colon,epithelial cycling cells,PTTG1,0.5,0.0535,0.0275,0.9962,1
+Crohn disease,colon,epithelial cycling cells,TUBB4B,0.5,0.0424,0.0217,1.0,2
+Crohn disease,colon,tuft cells,AZGP1,0.5,0.0049,0.0024,0.8889,1
+Crohn disease,colonic epithelium,enterocytes ca1 ca2 ca4,SLC26A3,0.5,0.4789,0.3149,0.9993,1
+Crohn disease,colonic epithelium,enterocytes ca1 ca2 ca4,KRT19,0.5,0.4417,0.2837,0.9968,2
+Crohn disease,colonic epithelium,enterocytes ca1 ca2 ca4,CES2,0.5,0.3912,0.2856,0.6206,3
+Crohn disease,colonic epithelium,enterocytes tmigd1 mep1a,MEP1A,0.5,0.2684,0.1586,0.8726,1
+Crohn disease,colonic epithelium,enteroendocrine cells,FEV,0.5,0.0083,0.0042,1.0,1
+Crohn disease,colonic epithelium,enteroendocrine cells,CHGA,0.5,0.0062,0.0031,1.0,2
+Crohn disease,colonic epithelium,enteroendocrine cells,PYY,0.5,0.0037,0.0019,1.0,3
+Crohn disease,colonic epithelium,epithelial cycling cells,CENPW,0.5,0.0637,0.033,0.911,1
+Crohn disease,colonic epithelium,epithelial cycling cells,UBE2C,0.5,0.0587,0.0303,1.0,2
+Crohn disease,colonic epithelium,epithelial cycling cells,TUBB4B,0.5,0.0309,0.0157,0.9485,3
+Crohn disease,colonic epithelium,goblet cells muc2 tff1,SPINK4,0.5,0.1122,0.0594,1.0,1
+Crohn disease,colonic epithelium,goblet cells spink4,LRRC26,0.5,0.0153,0.0077,1.0,1
+Crohn disease,colonic epithelium,goblet cells spink4,ITLN1,0.5,0.0122,0.0061,1.0,2
+Crohn disease,colonic epithelium,goblet cells spink4,SPINK4,0.5,0.0067,0.0034,1.0,3
+Crohn disease,colonic epithelium,paneth cells,ITLN2,0.5,0.001,0.0005,1.0,1
+Crohn disease,colonic epithelium,paneth cells,PRSS1,0.5,0.0009,0.0004,1.0,2
+Crohn disease,colonic epithelium,paneth cells,DEFA6,0.5,0.0004,0.0002,1.0,3
+Crohn disease,colonic epithelium,stem cells olfm4 pcna,PCNA,0.5,0.0574,0.0295,1.0,1
+Crohn disease,colonic epithelium,tuft cells,SH2D6,0.5,0.0069,0.0035,1.0,1
+Crohn disease,lamina propria of mucosa of colon,enterocytes best4,BEST4,0.5,0.0148,0.0075,1.0,1
+Crohn disease,lamina propria of mucosa of colon,enterocytes tmigd1 mep1a,TMIGD1,0.5,0.229,0.1301,0.9541,1
+Crohn disease,lamina propria of mucosa of colon,enterocytes tmigd1 mep1a,MEP1A,0.5,0.1983,0.11,1.0,2
+Crohn disease,lamina propria of mucosa of colon,enteroendocrine cells,CRYBA2,0.5,0.0033,0.0016,1.0,1
+Crohn disease,lamina propria of mucosa of colon,epithelial cycling cells,UBE2C,0.5,0.0557,0.0286,1.0,1
+Crohn disease,lamina propria of mucosa of colon,epithelial cycling cells,CENPW,0.5,0.0412,0.021,1.0,2
+Crohn disease,lamina propria of mucosa of colon,epithelial cycling cells,PTTG1,0.5,0.0277,0.014,1.0,3
+Crohn disease,lamina propria of mucosa of colon,goblet cells muc2 tff1,BCAS1,0.5,0.0965,0.0507,1.0,1
+Crohn disease,lamina propria of mucosa of colon,goblet cells muc2 tff1,SPINK4,0.5,0.0214,0.0108,1.0,2
+Crohn disease,lamina propria of mucosa of colon,goblet cells spink4,S100P,0.5,0.0088,0.0044,1.0,1
+Crohn disease,lamina propria of mucosa of colon,goblet cells spink4,RETNLB,0.5,0.0066,0.0033,1.0,2
+Crohn disease,lamina propria of mucosa of colon,goblet cells spink4,SPINK4,0.5,0.0015,0.0007,1.0,3
+Crohn disease,lamina propria of mucosa of colon,paneth cells,DEFA6,0.5,0.0008,0.0004,1.0,1
+Crohn disease,lamina propria of mucosa of colon,paneth cells,REG3A,0.5,0.0003,0.0001,1.0,2
+Crohn disease,lamina propria of mucosa of colon,stem cells olfm4 lgr5,LGR5,0.5,0.1166,0.0619,1.0,1
+Crohn disease,lamina propria of mucosa of colon,stem cells olfm4 pcna,SIVA1,0.5,0.0344,0.0175,1.0,1
+Crohn disease,lamina propria of mucosa of colon,tuft cells,BMX,0.5,0.0105,0.0053,1.0,1
+Crohn disease,lamina propria of mucosa of colon,tuft cells,AZGP1,0.5,0.0103,0.0052,1.0,2
+Crohn disease,lamina propria of mucosa of colon,tuft cells,SH2D6,0.5,0.0053,0.0026,0.8636,3
+Crohn disease,left colon,enterocytes best4,CA7,0.5,0.0258,0.0131,0.975,1
+Crohn disease,left colon,enterocytes best4,BEST4,0.5,0.0224,0.0113,0.9865,2
+Crohn disease,left colon,enterocytes ca1 ca2 ca4,KRT19,0.5,0.5445,0.3741,1.0,1
+Crohn disease,left colon,enterocytes ca1 ca2 ca4,SELENBP1,0.5,0.4529,0.2928,1.0,2
+Crohn disease,left colon,enterocytes ca1 ca2 ca4,SLC26A3,0.5,0.4501,0.2904,1.0,3
+Crohn disease,left colon,enterocytes tmigd1 mep1a,FABP6,0.5,0.2709,0.163,0.8002,1
+Crohn disease,left colon,enterocytes tmigd1 mep1a,APOC3,0.5,0.2689,0.1562,0.966,2
+Crohn disease,left colon,enterocytes tmigd1 mep1a,TMIGD1,0.5,0.1779,0.0977,1.0,3
+Crohn disease,left colon,epithelial cycling cells,TOP2A,0.5,0.0317,0.0161,1.0,1
+Crohn disease,left colon,epithelial cycling cells,STMN1,0.5,0.0196,0.0099,1.0,2
+Crohn disease,left colon,epithelial cycling cells,PTTG1,0.5,0.0172,0.0088,0.3889,3
+Crohn disease,left colon,goblet cells muc2 tff1,SPINK4,0.5,0.1215,0.0647,1.0,1
+Crohn disease,left colon,goblet cells muc2 tff1,ZG16,0.5,0.0113,0.0064,0.05,2
+Crohn disease,left colon,goblet cells spink4,SPINK4,0.5,0.0133,0.0067,1.0,1
+Crohn disease,left colon,goblet cells spink4,S100P,0.5,0.0126,0.0064,0.6429,2
+Crohn disease,left colon,stem cells olfm4,OLFM4,0.5,0.053,0.0284,0.3866,1
+Crohn disease,left colon,stem cells olfm4 lgr5,OLFM4,0.5,0.129,0.0691,0.9824,1
+Crohn disease,left colon,stem cells olfm4 pcna,OLFM4,0.5,0.0455,0.0233,0.9417,1
+Crohn disease,left colon,stem cells olfm4 pcna,DUT,0.5,0.0166,0.0084,1.0,2
+Crohn disease,sigmoid colon,enterocytes ca1 ca2 ca4,SELENBP1,0.5,0.4978,0.3314,1.0,1
+Crohn disease,sigmoid colon,enterocytes ca1 ca2 ca4,PKIB,0.5,0.489,0.3236,1.0,2
+Crohn disease,sigmoid colon,enterocytes tmigd1 mep1a,MEP1A,0.5,0.3315,0.1987,1.0,1
+Crohn disease,sigmoid colon,enteroendocrine cells,MS4A8,0.5,0.0032,0.0016,1.0,1
+Crohn disease,sigmoid colon,epithelial cycling cells,TUBB4B,0.5,0.0545,0.028,1.0,1
+Crohn disease,sigmoid colon,goblet cells spink4,LRRC26,0.5,0.0066,0.0033,1.0,1
+Crohn disease,sigmoid colon,paneth cells,ITLN2,0.5,0.0114,0.0058,1.0,1
+Crohn disease,sigmoid colon,tuft cells,BMX,0.5,0.0123,0.0062,1.0,1
+normal,colon,enterocytes ca1 ca2 ca4,SLC26A3,0.5,0.5578,0.3868,1.0,1
+normal,colon,enterocytes ca1 ca2 ca4,KRT19,0.5,0.5228,0.3565,0.9797,2
+normal,colon,enterocytes ca1 ca2 ca4,SELENBP1,0.5,0.5118,0.3595,0.8884,3
+normal,colon,enterocytes ca1 ca2 ca4,SLC26A2,0.5,0.4954,0.3337,0.9615,4
+normal,colon,enteroendocrine cells,MS4A8,0.5,0.0155,0.0078,0.9902,1
+normal,colon,enteroendocrine cells,FEV,0.5,0.0143,0.0072,1.0,2
+normal,colon,enteroendocrine cells,PYY,0.5,0.0077,0.0039,0.96,3
+normal,colon,enteroendocrine cells,PCSK1N,0.5,0.0056,0.0028,1.0,4
+normal,colon,epithelial cycling cells,TOP2A,0.5,0.0933,0.0498,0.7397,1
+normal,colon,goblet cells muc2 tff1,SPINK4,0.5,0.1442,0.0777,1.0,1
+normal,colon,goblet cells spink4,SPINK4,0.5,0.0133,0.0067,1.0,1
+normal,colon,goblet cells spink4,ITLN1,0.5,0.0089,0.0045,1.0,2
+normal,colon,paneth cells,DEFA6,0.5,0.0006,0.0003,1.0,1

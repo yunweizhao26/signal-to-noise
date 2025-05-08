@@ -454,7 +454,7 @@ def calculate_complete_score(X_original, X_imputed, adata=None, marker_genes=Non
             ari = adjusted_rand_score(clusters_orig, clusters_imp)
             scores['clustering_stability'] = max(0, ari)  # Ensure non-negative
             
-            # Calculate silhouette improvement - skip if dataset is very large
+            # Calculate silhouette improvement
             if X_orig_sample.shape[0] <= 2000:
                 try:
                     sil_orig = silhouette_score(X_orig_sample, clusters_orig)

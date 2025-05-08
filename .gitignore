@@ -8,3 +8,4 @@ archive/lung_dataset_cell_counts
 test.h5ad
 text.txt
 results
+cache

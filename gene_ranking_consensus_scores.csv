@@ -1,0 +1,69 @@
+cell_type,gene,consensus_cutoff,f1,precision,recall,rank
+enterocytes best4,BEST4,0.0598,0.0394,0.0243,0.6136,1
+enterocytes best4,CA4,0.5178,0.0279,0.015,0.6267,2
+enterocytes best4,CA7,0.1476,0.0252,0.0142,0.4588,3
+enterocytes ca1 ca2 ca4,KRT19,0.1138,0.5597,0.3948,0.993,1
+enterocytes ca1 ca2 ca4,SLC26A3,0.0979,0.527,0.4052,0.8126,2
+enterocytes ca1 ca2 ca4,UGT2B17,0.0603,0.5043,0.3423,0.9765,3
+enterocytes ca1 ca2 ca4,PKIB,-0.075,0.486,0.3221,0.9983,4
+enterocytes ca1 ca2 ca4,SELENBP1,0.0754,0.4794,0.3323,0.9129,5
+enterocytes ca1 ca2 ca4,CES2,0.0315,0.4776,0.3146,0.9949,6
+enterocytes ca1 ca2 ca4,CA1,0.0539,0.4637,0.3264,0.8817,7
+enterocytes ca1 ca2 ca4,SLC26A2,0.1282,0.4613,0.3145,0.9138,8
+enterocytes ca1 ca2 ca4,CA2,0.0652,0.4275,0.2788,0.9685,9
+enterocytes tmigd1 mep1a,TMIGD1,0.2496,0.6428,0.6397,0.6729,1
+enterocytes tmigd1 mep1a,MEP1A,0.4214,0.5703,0.5564,0.6268,2
+enterocytes tmigd1 mep1a,APOA1,0.1123,0.4257,0.3639,0.9066,3
+enterocytes tmigd1 mep1a,FABP6,0.0041,0.3392,0.2435,0.8248,4
+enterocytes tmigd1 mep1a,APOC3,0.0008,0.3233,0.2262,0.7669,5
+enterocytes tmigd1 mep1a,APOA4,-0.0019,0.3077,0.1907,0.8667,6
+enteroendocrine cells,PYY,0.4058,0.0204,0.0113,0.1594,1
+enteroendocrine cells,SCG5,0.1043,0.0199,0.0107,0.59,2
+enteroendocrine cells,FEV,0.032,0.0181,0.0098,0.4817,3
+enteroendocrine cells,CHGA,0.0812,0.0178,0.0095,0.5565,4
+enteroendocrine cells,SCGN,0.1197,0.0151,0.0078,0.5529,5
+enteroendocrine cells,GCG,0.1172,0.0143,0.0073,0.6978,6
+enteroendocrine cells,MS4A8,0.0473,0.0124,0.0063,0.8159,7
+enteroendocrine cells,CRYBA2,0.1042,0.0101,0.0052,0.6455,8
+enteroendocrine cells,PCSK1N,0.0536,0.0038,0.0019,0.7568,9
+epithelial cycling cells,UBE2C,0.5913,0.2486,0.1783,0.4419,1
+epithelial cycling cells,CDKN3,0.324,0.1806,0.126,0.4182,2
+epithelial cycling cells,CENPW,0.4862,0.1631,0.1181,0.5012,3
+epithelial cycling cells,CKS2,0.7251,0.1484,0.1106,0.3877,4
+epithelial cycling cells,STMN1,0.5918,0.1476,0.1069,0.5147,5
+epithelial cycling cells,TOP2A,0.5694,0.1381,0.0962,0.3611,6
+epithelial cycling cells,PTTG1,0.5839,0.1373,0.1024,0.4254,7
+epithelial cycling cells,HMGB2,0.8921,0.1098,0.0779,0.3069,8
+epithelial cycling cells,TUBB4B,1.0958,0.0767,0.048,0.3766,9
+goblet cells muc2 tff1,BCAS1,0.8929,0.3993,0.3204,0.5297,1
+goblet cells muc2 tff1,CLCA1,1.1759,0.3337,0.3877,0.3753,2
+goblet cells muc2 tff1,SPINK4,1.0688,0.2425,0.2401,0.5023,3
+goblet cells muc2 tff1,ZG16,1.2981,0.2386,0.2175,0.6563,4
+goblet cells muc2 tff1,MUC2,0.8614,0.0889,0.07,0.6706,5
+goblet cells spink4,RETNLB,0.1311,0.0893,0.0627,0.9136,1
+goblet cells spink4,SPINK4,0.2541,0.0844,0.0535,0.8704,2
+goblet cells spink4,ITLN1,0.3695,0.0805,0.0588,0.9347,3
+goblet cells spink4,S100P,0.1438,0.0487,0.0375,0.8543,4
+goblet cells spink4,CLCA1,0.406,0.0346,0.0188,0.8383,5
+goblet cells spink4,LRRC26,0.1449,0.0334,0.0181,0.8353,6
+goblet cells spink4,MUC2,0.3774,0.0334,0.0178,0.9453,7
+paneth cells,PRSS1,0.1426,0.0419,0.0274,0.8514,1
+paneth cells,ITLN2,0.1044,0.025,0.0165,0.2824,2
+paneth cells,PLA2G2A,0.9144,0.0139,0.0073,0.681,3
+paneth cells,DEFA5,0.3282,0.0088,0.0046,0.405,4
+paneth cells,DEFA6,0.0732,0.0066,0.0033,0.7831,5
+paneth cells,REG3A,0.3751,0.0016,0.0008,0.9278,6
+stem cells olfm4,OLFM4,0.551,0.2037,0.1212,0.7613,1
+stem cells olfm4,REG1A,0.2595,0.1732,0.0978,0.918,2
+stem cells olfm4 lgr5,LGR5,0.1099,0.2867,0.2278,0.6415,1
+stem cells olfm4 lgr5,OLFM4,1.1797,0.2362,0.1494,0.6958,2
+stem cells olfm4 pcna,OLFM4,1.2818,0.1982,0.1528,0.418,1
+stem cells olfm4 pcna,SIVA1,1.066,0.1429,0.1049,0.4479,2
+stem cells olfm4 pcna,DUT,0.9686,0.1296,0.088,0.3887,3
+stem cells olfm4 pcna,PCNA,0.729,0.1296,0.0853,0.2697,4
+tuft cells,TRPM5,0.1631,0.229,0.2074,0.5961,1
+tuft cells,BMX,0.1155,0.2128,0.1866,0.6024,2
+tuft cells,AZGP1,0.1312,0.1896,0.1828,0.5972,3
+tuft cells,SH2D6,0.2763,0.1526,0.1095,0.5627,4
+tuft cells,AVIL,0.1495,0.1362,0.1301,0.7959,5
+tuft cells,MATK,0.1344,0.014,0.007,1.0,6
