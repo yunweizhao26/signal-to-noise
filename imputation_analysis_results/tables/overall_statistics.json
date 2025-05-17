@@ -1,0 +1,10 @@
+{
+    "total_genes": 81,
+    "improved_genes": 74,
+    "improved_percentage": 91.35802469135803,
+    "average_improvement": 0.13359382716049384,
+    "median_improvement": 0.09530000000000005,
+    "max_improvement": 0.5298,
+    "gene_with_max_improvement": "TMIGD1",
+    "cell_type_with_max_improvement": "enterocytes tmigd1 mep1a"
+}

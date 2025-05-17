@@ -73,3 +73,27 @@ echo "Reports available at:"
 echo "  - $OUTPUT_DIR/minimal_imputation_results.csv"
 echo "  - $OUTPUT_DIR/minimal_imputation_summary.txt"
 echo "  - $OUTPUT_DIR/minimal_imputation_report.txt"
+
+
+
+Below are **concise mathematical expressions** for the trustworthiness (TH) score and the consensus score. In each formula, we consider $M$ imputation methods and let $\hat{X}_m(c,g)$ be the imputed value for cell $c$, gene $g$ under method $m$. The **indicator function** $\mathbf{1}\{\cdot\}$ is 1 if its argument is true and 0 otherwise.
+
+---
+
+**Trustworthiness (TH) Score**
+Measures the *fraction* of methods that impute a nonzero value:
+
+\[
+\text{TH}(c,g) = \frac{1}{M} \sum_{m=1}^{M} \mathbf{1}\!\bigl(\,\hat{X}_m(c,g)>0\bigr).
+\]
+
+\[
+
+\]
+
+**Consensus Score**
+Takes the *average* of each method'’'s imputed values:
+
+\[
+\text{Consensus}(c,g) = \frac{1}{M}\sum_{m=1}^{M} \hat{X}_m(c,g).
+\]

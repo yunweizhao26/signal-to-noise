@@ -9,3 +9,8 @@ test.h5ad
 text.txt
 results
 cache
+Miniconda3-latest-Linux-x86_64.sh
+SERGIO
+all_subdatasets_analysis/
+data/splits
+embedding/
